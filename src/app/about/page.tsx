@@ -1,5 +1,5 @@
 import { useState } from "react";
-export const runtime = "edge";
+// export const runtime = "edge";
 
 async function fetchData() {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
